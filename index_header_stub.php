@@ -1,0 +1,2 @@
+<?php $u = user(); ?>
+<header class="site-header"><a class="logo" href="/">Shury Mury</a><nav class="topnav"><?php if($u): ?><a href="dashboard.php">Панель</a><?php endif; ?><a href="index.php">Каталог</a></nav></header>
